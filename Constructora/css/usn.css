@@ -1,0 +1,23 @@
+.navbar {
+    box-shadow: 2px 2px 5px black;
+}
+.navbar .nav-item .nav-link {
+    color: white;
+}
+.main-header {
+    position: relative;
+    background: url(../img/departamentos.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    min-height: 800px;
+}
+.background-overlay {
+    background: rgba(47, 53, 66,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 800px;
+}
+.label {
+    text-size-adjust: 20pt;
+}

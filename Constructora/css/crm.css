@@ -1,0 +1,45 @@
+.navbar {
+    box-shadow: 2px 2px 5px black;
+}
+.navbar .nav-item .nav-link {
+    color: white;
+}
+.main-header {
+    position: relative;
+    background: url(../img/departamentos.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    min-height: 800px;
+}
+.background-overlay {
+    background: rgba(47, 53, 66,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 800px;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    height: 20%;
+}
+
+.container label {
+    width: 15%;
+    color: white;
+}
+
+.container input {
+    width: 24%;
+    margin-bottom: 2%;
+    padding: 1px;
+    box-sizing: border-box;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid white;
+    background: white;
+    color: black;
+    font-size: 14pt;
+    
+}
